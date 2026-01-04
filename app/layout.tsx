@@ -7,9 +7,11 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'FlytBase AEGIS',
+  description:
+    'AI-native autonomous drone security interface for real-time intrusion detection, response coordination, and legal-grade evidence generation.',
+  applicationName: 'FlytBase AEGIS',
+  authors: [{ name: 'Nainsi Gupta' }],
   icons: {
     icon: [
       {
@@ -28,6 +30,7 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
 }
+
 
 export default function RootLayout({
   children,
